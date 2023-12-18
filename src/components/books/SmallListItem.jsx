@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const SmallListItems = () => {
+const SmallBookListItems = ({ book }) => {
+  const { name, price } = book;
+
   return (
-    <div>SmallListItems</div>
-  )
-}
+    <h2>
+      {name}/ {price}
+    </h2>
+  );
+};
 
-export default SmallListItems
+export default SmallBookListItems;
