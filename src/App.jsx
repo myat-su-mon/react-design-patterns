@@ -1,12 +1,11 @@
-import LargeBookListItems from './components/books/LargeListItem'
-import Modal from './components/Modal'
-import React from 'react'
-import { books } from './data/books'
+import React from "react";
 
 const App = () => {
   return (
-    <Modal><LargeBookListItems book={books[0]}/></Modal>
-  )
-}
+    <>
+      <h1>Start Here</h1>
+    </>
+  );
+};
 
-export default App
+export default App;
